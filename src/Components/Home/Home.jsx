@@ -4,7 +4,7 @@ import HeroSection from './HeroSection/HeroSection'
 
 const Home = () => {
   return (
-    <div className={`bg-[#2C3333] w-100 h-100`}>
+    <div className={`bg-[#1d1f1d] w-100 h-100`}>
      <Navbar />
      <HeroSection />
     </div>
