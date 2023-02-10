@@ -13,11 +13,11 @@ const Navbar = () => {
          <div>
              <div className="flex items-center justify-between py-3 md:py-5 md:block ">
                  <a href='#'>
-                     <h2 className="text-2xl font-bold font-amaranth">Mohammed Adib</h2>
+                     <h2 className="text-2xl lg:text-4xl font-bold font-amaranth text-[#1f98df]">Mohammed Adib</h2>
                      </a>
                  <div className="md:hidden">
                      <button
-                         className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                         className="p-2 text-gray-700 rounded-md outline-none focus:border-[#eeb90b] focus:border"
                          onClick={() => setNavbar(!navbar)}
                      >
                          {navbar ? (
@@ -25,7 +25,7 @@ const Navbar = () => {
                                  xmlns="http://www.w3.org/2000/svg"
                                  className="w-6 h-6"
                                  viewBox="0 0 20 20"
-                                 fill="currentColor"
+                                 fill="#eeb90b"
                              >
                                  <path
                                      fillRule="evenodd"
@@ -37,9 +37,9 @@ const Navbar = () => {
                              <svg
                                  xmlns="http://www.w3.org/2000/svg"
                                  className="w-6 h-6"
-                                 fill="none"
+                                 fill="#eeb90b"
                                  viewBox="0 0 24 24"
-                                 stroke="currentColor"
+                                 stroke="#eeb90b"
                                  strokeWidth={2}
                              >
                                  <path
@@ -60,22 +60,22 @@ const Navbar = () => {
                  }`}
              >
                  <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Home</a>
                      </li>
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">About Me</a>
                      </li>
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Skills</a>
                      </li>
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Experience</a>
                      </li>
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Projects</a>
                      </li>
-                     <li className="text-gray-600 hover:text-blue-600">
+                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Contact</a>
                      </li>
                  </ul>
