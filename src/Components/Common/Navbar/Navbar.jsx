@@ -67,7 +67,7 @@ const Navbar = () => {
                          <a href="#about">About Me</a>
                      </li>
                      <li className="text-[#eeb90b] hover:text-[#1f98df] ">
-                         <a href="#">Skills</a>
+                         <a href="#skills">Skills</a>
                      </li>
                      <li className="text-[#eeb90b] hover:text-[#1f98df] ">
                          <a href="#">Experience</a>
