@@ -11,6 +11,7 @@ const HeroSection = () => {
         <h1 className={`text-2xl sm:text-3xl my-4`}>Assalamualaikum. I am</h1>
         
         <h1 className={`font-extrabold my-4`}>Mohammed <span className={`text-[#eeb90b]`}>Adib</span></h1>
+        <h2 className={`my-4 text-[#5e5a5a] text-lg sm:text-xl md:text-2xl`}>Passionate Backend Developer</h2>
         <h2 className={`my-4 text-[#eeb90b] text-2xl sm:text-3xl md:text-4xl`}>
           My motto is, 	<br />
         <Typewriter 
