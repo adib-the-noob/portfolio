@@ -30,3 +30,6 @@
      border-radius: 10px;
      border: 3px none #2c2b2b;
    }
+   html {
+    scroll-behavior: smooth;
+  }
