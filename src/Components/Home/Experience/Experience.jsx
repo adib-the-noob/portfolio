@@ -66,8 +66,8 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--education"
-                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                         contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                         contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
                          date="April 2013"
                          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          icon={<CgReadme />}
@@ -80,8 +80,8 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--education"
-                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                         contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                         contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
                          date="November 2012"
                          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          icon={<CgReadme />}
@@ -94,8 +94,8 @@ const Experience = () => {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--education"
-                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                         contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                         contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
                          date="2002 - 2006"
                          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          icon={<CgReadme />}
