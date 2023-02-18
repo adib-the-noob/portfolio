@@ -76,7 +76,7 @@ const Navbar = () => {
                          <a href="#projects">Projects</a>
                      </li>
                      <li className="text-[#eeb90b] hover:text-[#1f98df] ">
-                         <a href="#">Contact</a>
+                         <a href="#contacts">Contact</a>
                      </li>
                  </ul>
              </div>
