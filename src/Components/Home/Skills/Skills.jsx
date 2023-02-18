@@ -22,7 +22,7 @@ const Skills = () => {
           <div className={`py-10 sm:py-12 md:py-14 lg:py-14 flex flex-col font-poppins font-semibold leading-relaxed`} id='skills'>
                <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-[#eeb90b] pb-16 md:pb-20 lg:pb-24`}>Skills</h1>
                <div className={`w-11/12 sm:w-3/4 mx-auto`}>
-                    <SkillBar skills={skills} colors={colors} />
+                    <SkillBar skills={skills} colors={colors}  animationDelay={200}/>
                </div>
           </div>
      )
