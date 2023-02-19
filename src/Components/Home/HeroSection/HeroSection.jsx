@@ -16,7 +16,7 @@ const HeroSection = () => {
           My motto is, 	<br />
         <Typewriter 
           options={{
-            strings: ['01000101 01100001 01110100', '01010011 01101100 01100101 01100101 01110000', '01000011 01101111 01100100 01100101', '01010010 01100101 01110000 01100101 01100001 01110100'],
+            strings: ['Eat', 'Sleep', 'Code', 'Repeat'],
             autoStart: true,
             loop: true,
           }}
