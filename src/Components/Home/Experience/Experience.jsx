@@ -36,7 +36,7 @@ const Experience = () => {
                               Creative Direction, User Experience, Visual Design, SEO, Online Marketing
                          </p>
                     </VerticalTimelineElement>
-                    <VerticalTimelineElement
+                    {/* <VerticalTimelineElement
                          className="vertical-timeline-element--work"
                          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
@@ -63,36 +63,36 @@ const Experience = () => {
                          <p>
                               User Experience, Visual Design
                          </p>
-                    </VerticalTimelineElement>
+                    </VerticalTimelineElement> */}
                     <VerticalTimelineElement
                          className="vertical-timeline-element--education"
                          contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-                         date="April 2013"
+                         date="2023-Present"
                          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          icon={<CgReadme />}
                     >
-                         <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                         <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                         <p>
+                         <h3 className="vertical-timeline-element-title">Higher Secondary Certificate</h3>
+                         <h4 className="vertical-timeline-element-subtitle">Cumilla City College</h4>
+                         {/* <p>
                               Strategy, Social Media
-                         </p>
+                         </p> */}
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--education"
                          contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-                         date="November 2012"
+                         date="2017-2022"
                          iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          icon={<CgReadme />}
                     >
-                         <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                         <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                         <p>
+                         <h3 className="vertical-timeline-element-title">Secondary School Certificate</h3>
+                         <h4 className="vertical-timeline-element-subtitle">Cumilla Zila School</h4>
+                         {/* <p>
                               Creative Direction, User Experience, Visual Design
-                         </p>
+                         </p> */}
                     </VerticalTimelineElement>
-                    <VerticalTimelineElement
+                    {/* <VerticalTimelineElement
                          className="vertical-timeline-element--education"
                          contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
@@ -105,7 +105,7 @@ const Experience = () => {
                          <p>
                               Creative Direction, Visual Design
                          </p>
-                    </VerticalTimelineElement>
+                    </VerticalTimelineElement> */}
                     <VerticalTimelineElement
                          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                          icon={<CgSmileMouthOpen />}
