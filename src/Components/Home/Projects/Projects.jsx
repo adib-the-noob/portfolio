@@ -10,7 +10,7 @@ const Blogs = () => {
                id: 1,
                name: 'JB Mavericks',
                link : 'https://jb-mavericks.github.io/',
-               description: 'Contributed significantly to the development of the application by designing database and building and reliable backend system that enabled seamless user experience and ensured the scalability and performance of the application.',
+               description: "As a backend Engineer on the Mentoring app project,I was responsible for designing, developing, and maintaining the server-side of the application.I contributed to the project including developing the API for user authentication,  designing the database that stored user data, mentor profiles, and other critical information. This involved optimizing the database to ensure high performance and scalability to handle large volumes of data. I also integrated several third-party APIs into the application to enhance its functionality and provide a seamless user experience. These APIs were consumed by the app to enable features such as OTP and scheduling sessions with mentors. As the creator of the app's backend, I worked closely with the front-end developers to ensure that the application worked seamlessly across all devices and platforms.I also played a critical role in ensuring the application's security and compliance with industry standards.",
                role: 'Lead Backend Engineer'
           },
           {
@@ -24,7 +24,7 @@ const Blogs = () => {
                id: 3,
                name: 'Reddits Backend',
                link : 'https://github.com/ADIB-the-NOOB/Reddits-Backend',
-               description: 'Contributed significantly to the development of the application by designing database and building and reliable backend system that enabled seamless user experience and ensured the scalability and performance of the application.',
+               description: "Developed a mini social media's backend",
                role: 'Lead Backend Engineer'
           }
 
