@@ -12,21 +12,21 @@ const Experience = () => {
                          className="vertical-timeline-element--work"
                          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                         date="2011 - present"
+                         date="2021-2023"
                          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                          icon={<CgBriefcase />}
                     >
-                         <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                         <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                         <h3 className="vertical-timeline-element-title">Community Manager</h3>
+                         <h4 className="vertical-timeline-element-subtitle">Programming Hero</h4>
                          <p>
-                              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                         As a volunteer for a Discord server focused on coding and programming, my main responsibility was to assist members with fixing bugs in their code. This involved me reviewing code, identifying errors, and providing suggestions and guidance on how to fix them. To be successful in this role, I have a strong understanding of coding concepts and am able to communicate effectively with members of varying skill levels. Additionally, I am willing to collaborate with other volunteers and maintain a positive and helpful attitude.
                          </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--work"
                          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                         date="2010 - 2011"
+                         date="2021-2023"
                          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                          icon={<CgBriefcase />}
                     >
