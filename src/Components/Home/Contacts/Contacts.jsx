@@ -11,7 +11,7 @@ const Social = () => {
 
      return (
           <div className={`py-10 sm:py-12 md:py-14 lg:py-14 flex flex-col font-poppins font-semibold leading-relaxed`} id='contacts'>
-               <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-[#eeb90b] pb-16 md:pb-20 lg:pb-24`}>Let's connect</h1>
+               <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-lightYellow pb-16 md:pb-20 lg:pb-24`}>Let's connect</h1>
                <div className='flex justify-center items-center gap-x-3 pb-10'>
                <a href='https://www.facebook.com/the.noob.adib.550' target="_blank" rel="noreferrer">
                     <SiFacebook className='w-6 md:w-8 h-6 md:h-8 cursor-pointer hover:scale-125 duration-400 transition-all ease-linear' style={style} />

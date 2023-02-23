@@ -6,7 +6,7 @@ import { CgBriefcase, CgReadme, CgSmileMouthOpen } from "react-icons/cg";
 const Experience = () => {
      return (
           <div className={`py-10 sm:py-12 md:py-14 lg:py-14 flex flex-col font-poppins font-semibold leading-relaxed`} id='experience'>
-               <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-[#eeb90b] pb-16 md:pb-20 lg:pb-24`}>Experience</h1>
+               <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-lightYellow pb-16 md:pb-20 lg:pb-24`}>Experience</h1>
                <VerticalTimeline>
                     <VerticalTimelineElement
                          className="vertical-timeline-element--work"

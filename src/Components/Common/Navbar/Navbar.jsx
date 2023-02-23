@@ -13,11 +13,11 @@ const Navbar = () => {
          <div>
              <div className="flex items-center justify-between py-3 md:py-5 md:block ">
                  {/* <a href='#'>
-                     <h2 className="text-2xl lg:text-4xl font-bold font-amaranth text-[#1f98df]">Mohammed Adib</h2>
+                     <h2 className="text-2xl lg:text-4xl font-bold font-amaranth text-lightBlue">Mohammed Adib</h2>
                      </a> */}
                  <div className="md:hidden">
                      <button
-                         className="p-2 text-gray-700 rounded-md outline-none focus:border-[#eeb90b] focus:border"
+                         className="p-2 text-gray-700 rounded-md outline-none focus:border-lightYellow focus:border"
                          onClick={() => setNavbar(!navbar)}
                      >
                          {navbar ? (
@@ -60,22 +60,22 @@ const Navbar = () => {
                  }`}
              >
                  <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#">Home</a>
                      </li>
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#about">About Me</a>
                      </li>
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#skills">Skills</a>
                      </li>
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#experience">Experience</a>
                      </li>
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#projects">Projects</a>
                      </li>
-                     <li className="text-[#eeb90b] hover:text-[#1f98df] ">
+                     <li className="text-lightYellow hover:text-lightBlue ">
                          <a href="#contacts">Contact</a>
                      </li>
                  </ul>
