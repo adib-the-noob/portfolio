@@ -3,12 +3,14 @@ import React from 'react'
 // react icons
 import { SiFacebook, SiGithub, SiGmail, SiInstagram, SiLinkedin } from "react-icons/si";
 
-const Social = () => {
+const Social = (props) => {
+console.log(props.isDaytime)
 
      const style = {
-          color: "#a4adba"
+          color: ""
      }
-
+     props.isDaytime ? style.color="#35393d" : style.color = "#a4adba";
+     
      return (
           <div className={`py-10 sm:py-12 md:py-14 lg:py-14 flex flex-col font-poppins font-semibold leading-relaxed`} id='contacts'>
                <h1 className={`text-center text-4xl md:text-5xl lg:text-6xl text-lightYellow pb-16 md:pb-20 lg:pb-24`}>Let's connect</h1>

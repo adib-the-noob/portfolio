@@ -16,7 +16,7 @@ const Home = () => {
 
     setIsDaytime(hour >= 8 && hour < 17);
   }, []);
-console.log(isDaytime)
+
   return (
     <div className={` ${isDaytime ? "bg-[#cbdddd]" : "bg-[#0b1328] " } overflow-y-hidden`}>
      <Navbar />
@@ -25,7 +25,7 @@ console.log(isDaytime)
      <Skills />
      <Experience />
      <Projects />
-     <Contacts />
+     <Contacts isDaytime={isDaytime}/>
     </div>
   )
 }
