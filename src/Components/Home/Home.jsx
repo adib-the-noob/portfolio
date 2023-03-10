@@ -18,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className={` ${isDaytime ? "bg-[#cbdddd]" : "bg-[#0b1328] " }`}>
+    <div className={` ${isDaytime ? "bg-[#cbdddd]" : "bg-[#0b1328] " } overflow-y-hidden`}>
      <Navbar />
      <HeroSection />
      <About />
