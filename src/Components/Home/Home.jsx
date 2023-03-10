@@ -13,15 +13,15 @@ const Home = () => {
   useEffect(() => {
     const now = new Date();
     const hour = now.getHours();
-    // console.log(hour)
+
     setIsDaytime(hour >= 8 && hour < 17);
   }, []);
-
+console.log(isDaytime)
   return (
     <div className={` ${isDaytime ? "bg-[#cbdddd]" : "bg-[#0b1328] " } overflow-y-hidden`}>
      <Navbar />
      <HeroSection />
-     <About />
+     <About isDaytime={isDaytime}/>
      <Skills />
      <Experience />
      <Projects />
