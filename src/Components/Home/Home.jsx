@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import Navbar from '../Common/Navbar/Navbar'
 import About from './AboutMe/About'
 import Experience from './Experience/Experience'
@@ -8,8 +8,17 @@ import Projects from './Projects/Projects'
 import Contacts from './Contacts/Contacts'
 
 const Home = () => {
+  const [isDaytime, setIsDaytime] = useState(false);
+
+  useEffect(() => {
+    const now = new Date();
+    const hour = now.getHours();
+    // console.log(hour)
+    setIsDaytime(hour >= 8 && hour < 17);
+  }, []);
+
   return (
-    <div className={`bg-[#1d1f1d]`}>
+    <div className={` ${isDaytime ? "bg-[#cbdddd]" : "bg-[#0b1328] " }`}>
      <Navbar />
      <HeroSection />
      <About />
