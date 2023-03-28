@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+
 import Project from './Project';
 
 const Blogs = () => {
