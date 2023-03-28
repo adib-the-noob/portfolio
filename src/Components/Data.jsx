@@ -9,7 +9,7 @@ export const contacts={
 export const projectLists =[
      {
           id: 1,
-          name: 'JB Mavericks',
+          name: 'Project Jeetubhaiya',
           link : 'https://jb-mavericks.github.io/',
           description: "As a backend Engineer on the Mentoring app project,I was responsible for designing, developing, and maintaining the server-side of the application.I contributed to the project including developing the API for user authentication,  designing the database that stored user data, mentor profiles, and other critical information. This involved optimizing the database to ensure high performance and scalability to handle large volumes of data. I also integrated several third-party APIs into the application to enhance its functionality and provide a seamless user experience. These APIs were consumed by the app to enable features such as OTP and scheduling sessions with mentors. As the creator of the app's backend, I worked closely with the front-end developers to ensure that the application worked seamlessly across all devices and platforms.I also played a critical role in ensuring the application's security and compliance with industry standards.",
           role: 'Lead Backend Engineer'
