@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import projectLists from './../../Data'
 import Project from './Project';
 
